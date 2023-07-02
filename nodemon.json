@@ -1,0 +1,6 @@
+{
+    "ext": "ejs,js",
+    "ignore": ["views/*.html"],
+    "exec": "node"
+  }
+  

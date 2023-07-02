@@ -1,0 +1,25 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "start cmd /k \"nodemon server.js\" & browser-sync start --proxy http://localhost:5000 --files \"views/**/*.ejs\" \"layout/**/*.ejs\" \"public/**/*.js\" \"public/**/*.css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.0",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
