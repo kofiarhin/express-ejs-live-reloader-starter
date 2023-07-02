@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "start cmd /k \"nodemon server.js\" & browser-sync start --proxy http://localhost:5000 --files \"views/**/*.ejs\" \"layout/**/*.ejs\" \"public/**/*.js\" \"public/**/*.css\""
+    "dev": "start cmd /k \"nodemon server.js\" & browser-sync start --proxy http://localhost:5000 --files \"views/**/*.ejs\" \"layout/**/*.ejs\" \"public/**/*.js\" \"public/**/*.css\" 'server.js'\""
   },
   "keywords": [],
   "author": "",

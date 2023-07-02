@@ -9,7 +9,7 @@ app.set("view engine", "ejs")
 app.use(express.static("public"))
 
 app.get("/", (req, res) => {
-    res.render("index", { title: "change"})
+    res.render("index", { title: "Home Page changes"})
 })
 
 app.get("/about", (req, res) => {
